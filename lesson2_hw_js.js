@@ -67,3 +67,8 @@ console.log(0 || '0' && 1)
 console.log((+null == false) < 1);
 //output:false
 //спочатку порівняння у дужках і у результаті отримуємо true, далі виконуємо рівність true<1, що є невірно
+
+console.log(false && true || true);
+//output: true
+// виконуються послідовно дії
+
