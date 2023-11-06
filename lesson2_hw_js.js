@@ -72,3 +72,6 @@ console.log(false && true || true);
 //output: true
 // виконуються послідовно дії
 
+console.log(false && (false || true));
+//output: false
+// перша дія з результатом - true, далі виконуємо false && true
