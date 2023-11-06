@@ -75,3 +75,9 @@ console.log(false && true || true);
 console.log(false && (false || true));
 //output: false
 // перша дія з результатом - true, далі виконуємо false && true
+
+console.log((+null == false) < 1 ** 5);
+// output: false
+// перша дія (+null == false) дає результат true.
+// другая дія зедення у ступінь 1 ** 5 результат 1.
+//третя дія порівняння true<1 , true беремо як одиницю
