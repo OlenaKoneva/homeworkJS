@@ -1,3 +1,4 @@
+/**
 //Завдання1
 function drawTriangle(high, symbol) {
   let stringToOut = '';
@@ -29,13 +30,13 @@ for (let i = 1; i <= 100; i++) {
     console.log(result);
   }
 }
-
+**/
 //Завдання3
 function pow(x,y){
   let result = x;
-  for (i = 1; i < y; i++ ){
+  for (let i = 1; i <= y; i++ ){
     result *=x;
-    console.log(result)
   }
+  console.log(result)
 }
 pow(5,5)
