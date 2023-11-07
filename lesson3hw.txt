@@ -1,0 +1,7 @@
+let rows = 5;
+let stringToOut = '';
+const symbol = '8';
+for (let i = 0; i <= rows; i++) {
+  stringToOut = stringToOut + symbol;
+  console.log(stringToOut);
+}
